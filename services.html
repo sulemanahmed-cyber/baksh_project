@@ -11,27 +11,25 @@
 
     <header>
         <div class="h-left">
-
             <div>
-                <img src="images/logo.png" alt="" width="55px">
+                <a id="logo-link" href="index.html"><img src="images/logo.png" alt="" width="55px"></a>
             </div>
-
             <div>
-                <h5>BAKSH TRADING,</h5>
-            <p class="p-1">CONTRACTION & SERVICES</p>
+                <h5 id="title">BAKSH TRADING,</h5>
+                <p class="p-1">CONTRACTION & SERVICES</p>
             </div>
         </div>
-
+    
         <div class="h-right">
             <div>
                 <h4 class="h-c1">Register</h4>
             </div>
-           
             <div>
                 <h4 class="h-c">Signin</h4>
             </div>
         </div>
-   </header>
+    </header>
+    
 
     <!---->
 
@@ -214,6 +212,18 @@
     </div>
 
  </footer>
+
+ <script>
+    // Add event listener to the logo and title text to navigate back to index.html
+    document.getElementById('logo-link').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+
+    document.getElementById('title').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+</script>
+
 
         
 </body>
