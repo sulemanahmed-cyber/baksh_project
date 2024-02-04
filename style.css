@@ -125,7 +125,6 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
     text-align: center;
 }
 
@@ -463,11 +462,10 @@ nav ul li a:hover{
 .img-cnt1{
     margin-top: 50px;
     height: 500px;
-    background-image: url('images/home.png');
+    background-image: url('images/ContactUs.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,7 +496,7 @@ nav ul li a:hover{
 .img-cnt{
     
     height: fit-content;
-    background-image: url('images/image\ 23.png');
+    background-image: url('images/bluebackk.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
