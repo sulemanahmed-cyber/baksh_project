@@ -38,12 +38,14 @@
 <nav>
     <ul>
         <li>  <a href="#home"><i class="ri-home-line"></i>  Home</a></li>
-        <li><i class="ri-user-line"></i> About Us</li>
+         <li>  <a href="aboutus.html"><i class="ri-user-line"></i> About Us</a></li>
+
         <li> <i class="ri-questionnaire-line"></i> Why Us</li>
-        <li>  Mission & Vision</li>
-        <li>Trading</li>
+        <li>  <a href="missionvision.html"><i class="ri-eye-line"></i>  Mission & Vision</a></li>
+
+        <li><i class="ri-hand-coin-line"></i> Trading</li>
         <li>  <a href="services.html"><i class="ri-customer-service-line"></i> Services</a></li>
-        <li> <i class="ri-shake-hands-line"></i> Contraction</li>
+        <li> <i class="ri-shake-hands-line"></i> Contracting</li>
         <li>  <a href="#contact"><i class="ri-phone-line"></i> Contact Us</a></li>
     </ul>
 </nav>
@@ -87,7 +89,7 @@
             <h4 class="s-txt">TRADING</h4>
 
             <p class="txt-p">
-                "Unlock unparalleled service excellence with our commitment to personalized solutions. Elevate your experience with tailored services designed to meet your unique needs and exceed expectations."</p>
+                "Explore a world of quality goods with our trading services. From curated selections to everyday essentials, we bring you a diverse range of products. Elevate your lifestyle with our offerings and experience the ease of trading excellence."</p>
 
                 <button class="btn-crd">START <i class="ri-arrow-right-s-line"></i></button>
         </div>
@@ -99,7 +101,7 @@
             <h4 class="s-txt">SERVICES</h4>
 
             <p class="txt-p">
-                "Unlock unparalleled service excellence with our commitment to personalized solutions. Elevate your experience with tailored services designed to meet your unique needs and exceed expectations."</p>
+                "Experience excellence with our suite of professional services designed to meet your unique needs. From expert consultations to tailored solutions, we offer a diverse array of services to enhance your business. Partner with us for unparalleled support on your journey to success"</p>
 
                 <button class="btn-crd"><a href="services.html">START <i class="ri-arrow-right-s-line"></i></a></button>
         </div>
@@ -111,7 +113,7 @@
             <h4 class="s-txt">CONTRACTING</h4>
 
             <p class="txt-p">
-                "Unlock unparalleled service excellence with our commitment to personalized solutions. Elevate your experience with tailored services designed to meet your unique needs and exceed expectations."</p>
+                "Embark on worry-free projects with our premium contracting services. We specialize in seamless project management, ensuring quality and efficiency at every stage. From concept to completion, trust us to bring your vision to reality."</p>
 
                 <button class="btn-crd">START <i class="ri-arrow-right-s-line"></i></button>
         </div>
@@ -136,7 +138,7 @@
                 <div class="flex1">
 
                     <div class="logo-c"><i class="ri-phone-line"></i></div>
-                    <div class="cnt-txt"><a href="">+966122321376</a></div>
+                    <div class="cnt-txt"><a href="">+966-122321376</a></div>
                 </div>
 
                 <div class="flex1">
@@ -164,7 +166,11 @@
            </div>
 
             <div>
-                <form action="#" method="post">
+                <form  action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8ad0cb78-7955-44c4-8955-3b37294cb194">
+
+
+
                     <input type="text" id="name" name="name" placeholder="Name" required>
                     <input type="email" id="email" name="email" placeholder="Email" required>
                     <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
@@ -173,8 +179,10 @@
                   </form>
             </div>
         </div>
-
-    </div>
+            
+   
+   
+        </div>
 
 </section>
 </div>
@@ -201,7 +209,7 @@
                 <ul>
                     <h4 class="f-ls">CONTENT</h4>
                     <li>Authors</li>
-                    <li>About Bakshtc/li>
+                    <li>About Bakshtc</li>
                     <li>Blogs</li> 
                 </ul>
             </div>
@@ -249,11 +257,39 @@
             </div>
 
         </div>
-
+        <div class="flex-f contact-section">
+             <h4>Contact: sales@bakshtc.com</h4>
+        </div>
        </div>
 
     </footer>
 
 
-</body>
+
+         <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+                function sendEmail(){
+
+                    Email.send({
+                              Host : "smtp.elasticemail.com",
+                              Username : "jissintc@gmail.com",
+                             Password : "Jiss@1234",
+                             To : 'mohdsuleman2626@gmail.com',
+                              From : document.getElementById("email").value,
+                             Subject : "New Contact Form Enquiry",
+                             Body : "And this is the body"
+                                }).then(
+                             message => alert(message)
+                                );
+
+                }
+
+
+            </script>
+
+
+
+
+
+</body>`
 </html>
