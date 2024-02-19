@@ -5,7 +5,7 @@
     margin: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
 }
 
 html,body{
@@ -230,12 +230,13 @@ nav ul li a:hover{
     cursor: auto;
 
 }
+ 
 
 /*new page services*/
 
 .img-ser{
     height: 325px;
-    background-image: url('images/home.png');
+    background-image: url('images/services19.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -243,6 +244,28 @@ nav ul li a:hover{
     text-align: center;
 }
 
+
+.img-mivi{
+    height: 325px;
+    background-image: url('images/banner8989.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    text-align: center;
+}
+
+
+
+.img-abt{
+    height: 325px;
+    background-image: url('images/newbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    text-align: center;
+}
 .img-serv{
     height: 125px;
     background-repeat: no-repeat;
@@ -578,7 +601,9 @@ form {
 
   .footer-bgimg{
     height: 300px;
-    background-image: url('images/footer556.png');
+    /*background-image: url('images/footerpng.png');
+    background-color: #444143;*/
+    background: linear-gradient(180deg, #00d4ff 0%, #231f72 100%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
